@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="5">
+    <TextView
+        android:text="Nu ati scanat niciun cod"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="97.5dp"
+        android:id="@+id/textViewScan" />
+    <Button
+        android:text="Scaneaza"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/butto1"
+        android:layout_weight="1" />
+    <Button
+        android:text="Verificati Obiectul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Adauga Obiectul"
+        android:layout_weight="1" />
+    <Button
+        android:text="Iesire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_weight="1" />
+</LinearLayout>
